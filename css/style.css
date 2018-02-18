@@ -31,7 +31,7 @@ body {
   box-sizing: border-box;
 }
 
-header {
+.header {
   position: relative;
   height: 95vh;
   background-image: linear-gradient(to right bottom,
@@ -43,17 +43,17 @@ header {
   clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
 }
 
-.logo-box {
+.header__logo-box {
   position: absolute;
   top: 4rem;
   left: 4rem;
 }
 
-.logo {
+.header__logo {
   height: 3.5rem;
 }
 
-.text-box {
+.header__text-box {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -69,7 +69,7 @@ header {
   margin-bottom: 60px;
 }
 
-.heading-primary-main {
+.heading-primary--main {
   display: block;
   font-size: 6rem;
   font-weight: 400;
@@ -83,7 +83,7 @@ header {
 /* animation-delay: 3s;
    animation-iteration-count: 3; */
 
-.heading-primary-sub {
+.heading-primary--sub {
   display: block;
   font-size: 2rem;
   font-weight: 700;
@@ -106,7 +106,7 @@ header {
   font-size: 1.5rem;
 }
 
-.btn-animated {
+.btn--animated {
   animation: moveInBottom .5s ease-out .75s;
   animation-fill-mode: backwards;
 }
@@ -121,7 +121,7 @@ header {
   box-shadow: 0 .5rem 1rem rgba(0,0,0,.2);
 }
 
-.btn-white {
+.btn--white {
   background-color: #fff;
   color: #777;
   letter-spacing: 1rem;
@@ -145,7 +145,7 @@ header {
   opacity: 0;
 }
 
-.btn-white::after {
+.btn--white::after {
   background-color: #fff;
 }
 
