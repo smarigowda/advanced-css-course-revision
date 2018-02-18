@@ -1,0 +1,19 @@
+{
+  "name": "advanced-css-course-revision",
+  "version": "1.0.0",
+  "description": "Revision of advanced css course",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/smarigowda/advanced-css-course-revision.git"
+  },
+  "author": "Santosh Marigowda",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/smarigowda/advanced-css-course-revision/issues"
+  },
+  "homepage": "https://github.com/smarigowda/advanced-css-course-revision#readme"
+}
