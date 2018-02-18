@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/smarigowda/advanced-css-course-revision/issues"
   },
-  "homepage": "https://github.com/smarigowda/advanced-css-course-revision#readme"
+  "homepage": "https://github.com/smarigowda/advanced-css-course-revision#readme",
+  "devDependencies": {
+    "node-sass": "^4.7.2"
+  }
 }
