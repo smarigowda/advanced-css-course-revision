@@ -7,20 +7,18 @@
   box-sizing: inherit;
 }
 
-html {
-  /* user will lose the ability to change the browser font size hence 
-     this is not a good idea */
-  /* font-size: 10px;  */
-
-  font-size: 63%;
-}
 /* for inheritence */
 body {
-  font-family: "Lato", sans-serif; /* for inheritence */
-  font-weight: 400;
-  /* font-size: 16px; */
-  line-height: 1.7;
-  color: $color-grey-dark;
-  padding: 3rem;
   box-sizing: border-box;
+}
+
+html {
+  /* font-size: 10px;  */
+  /* user will lose the ability to change the browser font size hence 
+     this is not a good idea */
+  
+  // 10px in %
+  // user will be able to change the default browser font size
+  // 1rem = 10px
+  font-size: (10/16) * 100%;
 }
