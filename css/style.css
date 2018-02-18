@@ -4,14 +4,21 @@ Medium green: #55c57a
 Dark green:  #28b485
 */
 
-* {
+/* global reset */
+*,
+*::after,
+*::before {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  box-sizing: inherit;
 }
 
 html {
-  font-size: 10px;
+  /* user will lose the ability to change the browser font size hence 
+     this is not a good idea */
+  /* font-size: 10px;  */
+
+  font-size: 63%;
 }
 /* for inheritence */
 body {
@@ -21,6 +28,7 @@ body {
   line-height: 1.7;
   color: #777;
   padding: 3rem;
+  box-sizing: border-box;
 }
 
 header {
