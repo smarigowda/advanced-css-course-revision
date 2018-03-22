@@ -1,4 +1,7 @@
 .story {
+  @media (max-width: 600px) {
+    max-width: 50%;
+  }
   width: 75%;
   margin: 0 auto;
   padding-left: 9rem;

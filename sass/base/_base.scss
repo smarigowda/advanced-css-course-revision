@@ -21,4 +21,12 @@ html {
   // user will be able to change the default browser font size
   // 1rem = 10px
   font-size: (10/16) * 100%;
+
+  @include respond-phone {
+    font-size: 50%;
+  }
+
+  @include respond(phone) {
+    font-size: 50%;
+  }
 }
