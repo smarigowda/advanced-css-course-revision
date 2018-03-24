@@ -5,7 +5,7 @@ pipeline {
             steps {
                 echo 'Hello world! Testing Jenkins Pipeline Test 8'
                 echo 'Sleeping...'
-                sleep 300
+                sleep 180
             }
         }
     }
