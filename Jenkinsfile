@@ -5,7 +5,7 @@ pipeline {
       steps {
         echo 'Hello world! Testing Jenkins Pipeline Test 19'
 	sh"""#!/bin/bash -l
-           nvm use
+           nvm use v8.10.0
         """
         echo 'Sleeping...'
         sleep 30 
