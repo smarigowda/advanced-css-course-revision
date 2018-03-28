@@ -7,6 +7,8 @@ pipeline {
         checkout scm
 	      sh"""#!/bin/bash -l
            nvm use v8.10.0
+           npm install
+           npm run compile:sass:nowatch
         """
         echo 'Sleeping...'
         sleep 30
